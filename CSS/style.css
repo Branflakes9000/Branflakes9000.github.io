@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Pacifico&display=swap');
+
+body {
+  background-color: #FFE9AB;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 18pt;
+  background-image: url("/images/boi.jpg");
+}
+
+h1 {
+  color: #4e4332;
+  font-size: 22pt;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  color: #615845;
+}
+
+h3 {
+  color: #615845;
+}
+
+p {
+  color: #615845;
+}
+
+a {
+  color: #ffa899;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #fff1cc;
+}
+
+/* visited link */
+a:visited {
+
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
