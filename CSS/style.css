@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Sacramento&display=swap');
+
 body {
 background-image: linear-gradient(midnightblue , skyblue, #a1e0ff);
 background-repeat: no-repeat;
-margin: 30%;
+margin: 30%
+}
+
+p {
+  font-family: 'Caveat';
+  color: white;
+  font-size: 35px;
+  text-align: center;
 
 }
 
@@ -10,7 +19,20 @@ float: left;
 }
 
 .two {
-  float: right;
+margin: 100px;
+}
+
+#alpaca {
+  width: 40%;
+  float: center;
+}
+
+#click {
+cursor: pointer;
+}
+
+#video_one {
+  visibility: hidden;
 }
 
 footer {
