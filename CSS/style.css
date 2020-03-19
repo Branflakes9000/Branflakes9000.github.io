@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Sacramento&display=swap');
 
 body {
-background-image: linear-gradient(midnightblue , skyblue, #a1e0ff);
-background-repeat: no-repeat;
-margin: 30%
+  background-image: linear-gradient(midnightblue, skyblue, #a1e0ff);
+  background-repeat: no-repeat;
+  margin:20%;
+}
+
+h1 {
+  margin-bottom: 200px;
+  font-family: 'Sacramento';
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  border: 6px #fff solid;
+
 }
 
 p {
@@ -11,15 +21,22 @@ p {
   color: white;
   font-size: 35px;
   text-align: center;
-
 }
 
 .one {
-float: left;
+  float: left;
 }
 
 .two {
-margin: 100px;
+  margin: 100px;
+}
+
+#sakura {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-left:-20%;
+  margin-top: -20%
 }
 
 #alpaca {
@@ -28,13 +45,12 @@ margin: 100px;
 }
 
 #click {
-cursor: pointer;
+  cursor: pointer;
 }
 
 #video_one {
   visibility: hidden;
+  position: relative;
 }
 
-footer {
-
-}
+footer {}
